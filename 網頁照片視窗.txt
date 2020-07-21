@@ -1,0 +1,7 @@
+
+<a href="
+<a  class="fancybox" href="
+
+target="_blank
+data-fancybox-group="gallery
+

@@ -1,0 +1,17 @@
+"v=spf1 include:hibox.hinet.net ~all"
+
+遠端桌面連線
+IP Address: 162.248.164.24
+Password: 2aZyNE9uRy
+
+
+網域
+名稱:barrierfree
+密碼:ud123456
+
+IP Address:	162.248.164.24
+Password:	2aZyNE9uRy
+
+伺服器
+帳號 : administrator
+密碼 : 2aZyNE9uRy

@@ -1,0 +1,766 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<!-----------------必摳A，放在<head>之上------------------------->
+<script language="JavaScript" type="text/JavaScript"> 
+function omsOver(oms){oms.style.backgroundColor='#FFE8FF';}
+function omsOut(oms){oms.style.backgroundColor='';}
+function omsOver01(oms){oms.style.backgroundColor='#E0FCE3';}
+function omsOut01(oms){oms.style.backgroundColor='';}
+function omsOver02(oms){oms.style.backgroundColor='#CCFFFF';}
+function omsOut02(oms){oms.style.backgroundColor='';}
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cycle2.js"></script>
+<style type="text/css">
+.cycle-slideshow { width: 960px; }
+.cycle-slideshow img { width: 960; height: 203 }
+</style>
+<style type="text/css">
+<!--
+	#myDiv {
+		overflow: hidden;
+		width: 240px;
+		background-color: #FFFFFF;
+		
+	}
+	
+	#myDiv img {
+		border: 1px solid;
+		width: 240px;
+		height: 200px;
+	}
+-->
+</style>
+  
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).click(function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  });
+  </script>
+<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<!-----------------必摳A，放在<head>之上------------------------->
+
+<head>
+<title>其他設備-MIKI輪椅及配件</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="無障礙標誌牌、求助鈴、自動感應沖水器、&nbsp;不鏽鋼導盲磚、黑色金鋼沙止滑帶、黃色導盲磚墊">
+<meta name="description" content="無障礙標誌牌、求助鈴、自動感應沖水器、&nbsp;不鏽鋼導盲磚、黑色金鋼沙止滑帶、黃色導盲磚墊">
+<link rel="File-List" href="other-9-1.files/filelist.xml">
+
+<!-----------------必摳B，放在<head>以下 </head>以上------------------------->
+
+<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			// Change title type, overlay closing speed
+			$(".fancybox-effects-a").fancybox({
+				helpers: {
+					title : {
+						type : 'outside'
+					},
+					overlay : {
+						speedOut : 0
+					}
+				}
+			});
+
+			// Disable opening and closing animations, change title type
+			$(".fancybox-effects-b").fancybox({
+				openEffect  : 'none',
+				closeEffect	: 'none',
+
+				helpers : {
+					title : {
+						type : 'over'
+					}
+				}
+			});
+
+			// Set custom style, close if clicked, change title type and overlay color
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+
+			// Remove padding, set opening and closing animations, close if clicked and disable overlay
+			$(".fancybox-effects-d").fancybox({
+				padding: 0,
+
+				openEffect : 'elastic',
+				openSpeed  : 150,
+
+				closeEffect : 'elastic',
+				closeSpeed  : 150,
+
+				closeClick : true,
+
+				helpers : {
+					overlay : null
+				}
+			});
+
+			/*
+			 *  Button helper. Disable animations, hide close button, change title type and content
+			 */
+
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'none',
+				closeEffect : 'none',
+
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = 'Image ' + (this.index + 1) + ' of ' + this.group.length + (this.title ? ' - ' + this.title : '');
+				}
+			});
+
+
+			/*
+			 *  Thumbnail helper. Disable animations, hide close button, arrows and slide to next gallery item if clicked
+			 */
+
+			$('.fancybox-thumbs').fancybox({
+				prevEffect : 'none',
+				nextEffect : 'none',
+
+				closeBtn  : false,
+				arrows    : false,
+				nextClick : true,
+
+				helpers : {
+					thumbs : {
+						width  : 50,
+						height : 50
+					}
+				}
+			});
+
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+
+			/*
+			 *  Open manually
+			 */
+
+			$("#fancybox-manual-a").click(function() {
+				$.fancybox.open('1_b.jpg');
+			});
+
+			$("#fancybox-manual-b").click(function() {
+				$.fancybox.open({
+					href : 'iframe.html',
+					type : 'iframe',
+					padding : 5
+				});
+			});
+
+			$("#fancybox-manual-c").click(function() {
+				$.fancybox.open([
+					{
+						href : '1_b.jpg',
+						title : 'My title'
+					}, {
+						href : '2_b.jpg',
+						title : '2nd title'
+					}, {
+						href : '3_b.jpg'
+					}
+				], {
+					helpers : {
+						thumbs : {
+							width: 75,
+							height: 50
+						}
+					}
+				});
+			});
+
+
+		});
+	</script>
+<!-----------------必摳B，放在<head>以下 </head>以上------------------------->
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (20184191847054431.JPG) -->
+<div align="center">
+<table id="___01" width="1090" height="820" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="458">
+			<!--webbot bot="Include" U-Include="../Share-1.html" TAG="BODY" startspan -->
+<!-- Save for Web Slices (20184191847054431.JPG) -->
+<div align="center">
+<table id="___01" width="1090" height="429" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<!--[if gte vml 1]><v:rect id="_x0000_s1025"
+ style='position:absolute;left:388.5pt;top:9pt;width:48.75pt;height:25.5pt;
+ z-index:1' filled="f" fillcolor="none" stroked="f" strokecolor="none"/><![endif]--><img border="0" src="../images/index_01.gif" width="1090" height="457"></td>
+	</tr>
+	</table>
+</div>
+<!--webbot bot="Include" i-checksum="9482" endspan --></td>
+	</tr>
+	<tr>
+		<td valign="top">
+			<div align="center">
+			<table border="0" width="100%" cellspacing="0" cellpadding="0" height="667">
+				<tr>
+					<td height="667" bgcolor="#3A4A67" valign="top" rowspan="3">
+					<!--webbot bot="Include" U-Include="../Share-2.html" TAG="BODY" startspan -->
+
+					<table border="0" width="100%">
+						<tr>
+							<td width="125" align="right">　</td>
+							<td>　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right">　</td>
+							<td>　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right">　</td>
+							<td>　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							<font color="#FFFFFF" size="2">◆</font></td>
+							<td><font size="4" face="微軟正黑體">
+							<a href="../index.html">
+							<span style="text-decoration: none">
+							<font color="#FFFFFF">首頁</font></span></a></font></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							<font color="#FFFFFF" size="2">◆</font></td>
+							<td><font size="4" face="微軟正黑體">
+							<a href="../about/about.html">
+							<span style="text-decoration: none">
+							<font color="#FFFFFF">關於我們</font></span></a></font></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							<font color="#FFFFFF" size="2">◆</font></td>
+							<td><font face="微軟正黑體" size="4">
+							<a href="../slope/slope.html">
+							<span style="text-decoration: none">
+							<font color="#FFFFFF">斜坡板系列</font></span></a></font></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							<font color="#FFFFFF" size="2">◆</font></td>
+							<td><font size="4" face="微軟正黑體">
+							<a href="../armrest/armrest.html">
+							<span style="text-decoration: none">
+							<font color="#FFFFFF">扶手系列</font></span></a></font></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							<font color="#FFFFFF" size="2">◆</font></td>
+							<td><font size="4" face="微軟正黑體">
+							<a href="other.html">
+							<span style="text-decoration: none">
+							<font color="#FFFFFF">其他設備</font></span></a></font></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td>　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right" height="109">
+							　</td>
+							<td height="109">　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td><b><font size="5" face="微軟正黑體" color="#FFFFFF">
+							友站連結</font></b></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td align="center">
+							<p align="center">
+							<a href="http://www.twys.org.tw/" target="_blank">
+							<img border="0" src="../images/a.jpg" width="150" height="79" align="left"></a></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td>　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td>
+							<a href="https://www.scsrc.org.tw/" target="_blank">
+							<img border="0" src="../images/b.jpg" width="150" height="79"></a></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td>　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td><a href="http://kcf.org.tw/" target="_blank">
+							<img border="0" src="../images/c.jpg" width="150" height="79"></a></td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td>　</td>
+						</tr>
+						<tr>
+							<td width="125" align="right">
+							　</td>
+							<td>
+							<a href="http://www.xuricheng.com.tw/index.asp" target="_blank">
+							<img border="0" src="../images/d.jpg" width="150" height="79"></a></td>
+						</tr>
+					</table>
+					
+<!--webbot bot="Include" i-checksum="65175" endspan --><p>&nbsp;</td>
+					<td height="158" bgcolor="#3A4A67" width="756" align="center" valign="top">
+					<p align="left"><font color="#FFFFFF"><br>
+&nbsp;</font><!--webbot bot="Include" U-Include="other-share-1.htm" TAG="BODY" startspan -->
+
+<div align="center">
+	<table border="0" width="78%" cellspacing="0" cellpadding="0" height="100">
+		<tr>
+			<td width="10" align="left">
+			　</td>
+			<td width="134" align="left">
+			　</td>
+			<td width="10" align="left">
+			　</td>
+			<td width="155" align="left">
+			　</td>
+			<td align="left" width="12">　</td>
+			<td align="left">　</td>
+			<td align="left" width="10">　</td>
+			<td align="left" width="107">　</td>
+		</tr>
+		<tr>
+			<td width="10" align="left">
+			　</td>
+			<td width="134" align="left">
+			　</td>
+			<td width="10" align="left">
+			　</td>
+			<td width="155" align="left">
+			　</td>
+			<td align="left" width="12">　</td>
+			<td align="left">　</td>
+			<td align="left" width="10">　</td>
+			<td align="left" width="107">　</td>
+		</tr>
+		<tr>
+			<td width="10" align="left">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td width="134" align="left">
+			<font size="4" face="微軟正黑體"><a href="other-1.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">標誌牌</span></font></a></font></td>
+			<td width="10" align="left">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td width="155" align="left">
+			<font face="微軟正黑體" size="4">
+			<span style="text-decoration: none"><a href="other-2.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">求助鈴</span></font></a></span></font></td>
+			<td align="left" width="12">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td align="left">
+			<font face="微軟正黑體" size="4">
+			<span style="text-decoration: none"><a href="other-3.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">自動感應沖水器</span></font></a></span></font></td>
+			<td align="left" width="10">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td align="left" width="107">
+			<font size="4" face="微軟正黑體"><a href="other-4.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">馬桶靠背</span></font></a></font></td>
+		</tr>
+		<tr>
+			<td width="10" align="left">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td width="134" align="left">
+			<font size="4" face="微軟正黑體"><a href="other-5.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">不鏽鋼導盲磚</span></font></a></font></td>
+			<td width="10" align="left">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td width="155" align="left">
+			<font size="4" face="微軟正黑體"><a href="other-6.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">黑色金鋼沙止滑帶</span></font></a></font></td>
+			<td align="left" width="12">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td align="left"><font size="4" face="微軟正黑體"><a href="other-7.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">黃色導盲磚墊</span></font></a></font></td>
+			<td align="left" width="10">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td align="left" width="107">
+			<font size="4" face="微軟正黑體"><a href="other-8.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">樓層指示牌</span></font></a></font></td>
+		</tr>
+		<tr>
+			<td width="10" align="left">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td width="134" align="left">
+			<font size="4" face="微軟正黑體"><a href="other-9.html">
+			<font color="#FFFFFF"><span style="text-decoration: none">MIKI輪椅</span></font></a></font></td>
+			<td width="10" align="left">
+			<font size="1" face="微軟正黑體" color="#FFFFFF">●</font></td>
+			<td width="155" align="left">
+			<font color="#FFFFFF" size="4" face="微軟正黑體">
+			<span style="text-decoration: none">
+			<font color="#000000"><a href="other-10.html"><font color="#FFFFFF">
+			<span style="text-decoration: none">輪椅配件</span></font></a></font></span></font></td>
+			<td align="left" width="12">　</td>
+			<td align="left">　</td>
+			<td align="left" width="10">　</td>
+			<td align="left" width="107">　</td>
+		</tr>
+		<tr>
+			<td width="10" align="left">
+			　</td>
+			<td width="134" align="left">
+			　</td>
+			<td width="10" align="left">
+			　</td>
+			<td width="155" align="left">
+			　</td>
+			<td align="left" width="12">　</td>
+			<td align="left">　</td>
+			<td align="left" width="10">　</td>
+			<td align="left" width="107">　</td>
+		</tr>
+		</table>
+</div>
+
+<!--webbot bot="Include" i-checksum="41208" endspan --></td>
+				</tr>
+				<tr>
+					<td height="58" bgcolor="#3A4A67" width="756" align="center" valign="top">
+					<table border="0" width="74%">
+						<tr>
+							<td>
+							<p style="margin-top: 0; margin-bottom: 0"><b>
+							<font color="#FFFFFF" size="5" face="微軟正黑體">日本MIKI 鋁合金輪椅櫻花系列</font></b></td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="449" bgcolor="#3A4A67" width="756" align="center" valign="top">
+					<table border="0" width="44%">
+						<tr>
+							<td align="center">
+							<a  class="fancybox" href="images/other-9/other-9-1/other-9-1%20(1).jpg" data-fancybox-group="gallery">
+							<img border="0" src="images/other-9/other-9-1/other-9-1%20(1).jpg" width="150" height="150"></a></td>
+							<td align="center">
+							<a  class="fancybox" href="images/other-9/other-9-1/other-9-1%20(2).jpg" data-fancybox-group="gallery">
+							<img border="0" src="images/other-9/other-9-1/other-9-1%20(2).jpg" width="150" height="150"></a></td>
+							<td align="center">
+							<a  class="fancybox" href="images/other-9/other-9-1/other-9-1%20(3).jpg" data-fancybox-group="gallery">
+							<img border="0" src="images/other-9/other-9-1/other-9-1%20(3).jpg" width="150" height="150"></a></td>
+							<td align="center">
+							<a  class="fancybox" href="images/other-9/other-9-1/other-9-1%20(4).jpg" data-fancybox-group="gallery">
+							<img border="0" src="images/other-9/other-9-1/other-9-1%20(4).jpg" width="150" height="150"></a></td>
+						</tr>
+						</table>
+					<table border="0" width="81%">
+						<tr>
+							<td width="14%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">廠牌</font></td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">輪椅世界</font></td>
+						</tr>
+						<tr>
+							<td width="14%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">類別</font></td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">長照型輪椅　</font></td>
+						</tr>
+						<tr>
+							<td width="14%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">型號</font></td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">MPR-2</font></td>
+						</tr>
+						<tr>
+							<td width="14%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">商品說明</font></td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">
+							1.固定扶手，固定靠腳，背可折鋁合金輪椅。</font></td>
+						</tr>
+						<tr>
+							<td width="14%">&nbsp;</td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">
+							2.骨架材質為鋁合金 7003 管材，主體骨架保固六年。</font></td>
+						</tr>
+						<tr>
+							<td width="14%">&nbsp;</td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">
+							3.坐墊為前高後低，分壓設計。</font></td>
+						</tr>
+						<tr>
+							<td width="14%">&nbsp;</td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">
+							4.與日本同步規格與配備，升級櫻花坐、背墊。</font></td>
+						</tr>
+						<tr>
+							<td width="14%">&nbsp;</td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">
+							5.可拆卸式座、背上墊，附加腿靠帶。</font></td>
+						</tr>
+						<tr>
+							<td width="14%">&nbsp;</td>
+							<td width="83%">
+							<font face="微軟正黑體" size="4" color="#FFFFFF">
+							6.座寬17&quot;，座深16&quot;。</font></td>
+						</tr>
+						<tr>
+							<td width="14%">&nbsp;</td>
+							<td width="83%">
+							<font face="微軟正黑體" size="4" color="#FFFFFF">
+							7.前輪6&quot;實心胎，後輪16&quot;PU免充胎。</font></td>
+						</tr>
+						<tr>
+							<td width="14%" height="24">&nbsp;</td>
+							<td width="83%" height="24">
+							<font face="微軟正黑體" size="4" color="#FFFFFF">
+							8.最大負載重量100公斤。</font></td>
+						</tr>
+						<tr>
+							<td width="14%">&nbsp;</td>
+							<td width="83%">
+							<font color="#FFFFFF" size="4" face="微軟正黑體">
+							符合「身心障礙者輔具補助基準表」輪椅-B款（輕量化量產型）</font></td>
+						</tr>
+					</table>
+					</td>
+				</tr>
+				</table>
+			</div>
+		</td>
+	</tr>
+	</table>
+<!--webbot bot="Include" U-Include="../Share-3.html" TAG="BODY" startspan -->
+<!-- Save for Web Slices (20184191847054431.JPG) -->
+<div align="center">
+<table id="___01" width="1090" height="250" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="231" bgcolor="#1C2939" align="center">
+			<table border="0" width="77%" cellpadding="0" height="193">
+				<tr>
+					<td width="276" height="34"><u><b>
+					<font color="#FFFFFF" face="微軟正黑體" size="4">Phone</font></b></u></td>
+					<td width="266" height="34"><u><b>
+					<font color="#FFFFFF" face="微軟正黑體" size="4">Email</font></b></u></td>
+					<td width="289" height="34"><b><u>
+					<font color="#FFFFFF" face="微軟正黑體" size="4">Address</font></u></b></td>
+				</tr>
+				<tr>
+					<td width="276" height="21">
+					<font color="#FFFFFF" face="微軟正黑體">台北｜02-2681-5017</font></td>
+					<td width="266" height="21"><font color="#FFFFFF" face="微軟正黑體">台北｜ud.hsuan@gmail.com</font></td>
+					<td width="289" height="21">
+					<font color="#FFFFFF" face="微軟正黑體">台北｜新北市樹林區備前街56巷4號</font></td>
+				</tr>
+				<tr>
+					<td width="276" height="21">
+					<font color="#FFFFFF" face="微軟正黑體">桃園｜03-420-3208</font></td>
+					<td height="21" width="266">
+					<font color="#FFFFFF" face="微軟正黑體">桃園｜crs@scsrc.org.tw</font></td>
+					<td width="289" height="21">
+					<font color="#FFFFFF" face="微軟正黑體">桃園｜桃園市平鎮區上海路211巷1號</font></td>
+				</tr>
+				<tr>
+					<td width="276" height="20">
+					<font color="#FFFFFF" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+					0935130386 (輪椅諮詢專線 )</font></td>
+					<td width="266" height="20">
+					<font color="#FFFFFF" face="微軟正黑體">高雄｜twys.xin@gmail.com</font></td>
+					<td width="289" height="20">
+					<font color="#FFFFFF" face="微軟正黑體">高雄｜高雄市鼓山區河川街76巷6弄8號</font></td>
+				</tr>
+				<tr>
+					<td width="276" height="20">
+					<font color="#FFFFFF" face="微軟正黑體">台南｜0980-850139</font></td>
+					<td width="266" height="20">&nbsp;</td>
+					<td width="289" height="20">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="276" height="20">
+					<font color="#FFFFFF" face="微軟正黑體">高雄｜07-531-7052 </font></td>
+					<td width="266" height="20">&nbsp;</td>
+					<td width="289" height="20">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="276" height="20">
+					<font color="#FFFFFF" face="微軟正黑體">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 07-531-7057</font></td>
+					<td width="266" height="20">&nbsp;</td>
+					<td width="289" height="20">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="276" height="20">
+					<font color="#FFFFFF" face="微軟正黑體">屏東｜0988-007737</font></td>
+					<td width="266" height="20">&nbsp;</td>
+					<td width="289" height="20">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="276" height="19">
+					&nbsp;</td>
+					<td width="266" height="19">&nbsp;</td>
+					<td width="289" height="19">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="276" height="19">
+					&nbsp;</td>
+					<td width="266" height="19">&nbsp;</td>
+					<td width="289" height="19">&nbsp;</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<!-- End Save for Web Slices -->
+<!--webbot bot="Include" i-checksum="50036" endspan --></div>
+<!-- End Save for Web Slices -->
+</body>
+
+<!-----------------必摳C，放在</body>以下 </html>以上------------------------->
+
+<script type="text/javascript">
+<!--
+	//變數Speed為設定捲軸的速度用 越小越快
+	var Speed=30;
+	//接受setInterval所回傳的值
+	var timer;
+	//取得myDiv的參考用的變數
+	var myDiv = document.getElementById("myDiv");
+	//取得pic2的參考用的變數
+	var pic2= document.getElementById("pic2");
+	//讓pic2的innerHTML等於pic1的innerHTML
+	pic2.innerHTML=document.getElementById("pic1").innerHTML;
+	//用來捲動myDiv捲軸用的主程式
+	function picMarquee(){
+		//若pic2的寬小於myDiv的scrollLeft，表示捲軸已經過了第一行
+		//所以讓Div的scrollLeft再回到原來的位置；反之 則繼續往右跑
+		if(pic2.offsetWidth - myDiv.scrollLeft <= 0){
+			myDiv.scrollLeft = 0;
+		}else{
+			myDiv.scrollLeft++;
+		}
+	}
+	//每Speed毫秒就執行一次pciMarquee()
+	timer=setInterval(picMarquee,Speed);
+	//當滑鼠在myDiv上時 就停止捲動
+	myDiv.onmouseover=function(){
+		clearInterval(timer);
+	}
+	//當滑鼠離開myDiv上時 就繼續往右捲動
+	myDiv.onmouseout=function(){
+		timer=setInterval(picMarquee,Speed);
+	}
+//-->
+</script>
+
+</html>
+<!-----------------必摳C，放在</body>以下 </html>以上------------------------->

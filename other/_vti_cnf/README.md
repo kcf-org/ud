@@ -1,0 +1,10 @@
+vti_encoding:SR|utf8-nl
+vti_author:SR|SKYUSER-F9JPANH\\User
+vti_modifiedby:SR|SKYUSER-F9JPANH\\User
+vti_timelastmodified:TR|16 May 2019 08:54:58 -0000
+vti_timecreated:TR|01 May 2019 08:02:55 -0000
+vti_extenderversion:SR|6.0.2.5516
+vti_backlinkinfo:VX|
+vti_nexttolasttimemodified:TR|01 May 2019 08:02:55 -0000
+vti_cacheddtm:TX|01 May 2019 08:02:55 -0000
+vti_filesize:IR|6150

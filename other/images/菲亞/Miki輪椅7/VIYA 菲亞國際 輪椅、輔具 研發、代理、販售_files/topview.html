@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0036)http://www.wheelchair.tw/topview.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" style="user-select: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>主視覺banner</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+
+
+<script type="text/javascript" src="./jquery-latest.min.js.下載"></script>
+<style type="text/css">
+	ul, li {
+		margin: 0;
+		padding: 0;
+		list-style: none;  
+	}
+
+	a img {
+		border: none;
+	}
+
+	#abgne-block-20110406 {
+		margin: 0 auto;
+		width: 1039px;	/* 框架圖片的寬 */
+		height: 282px;	/* 框架圖片的高 */
+		position: relative;
+		background: url('images/frame.gif') no-repeat;
+	}
+
+	#abgne-block-20110406 a.prev, #abgne-block-20110406 a.next {
+		position: absolute;
+		top: 119px;
+		display: block;
+		width: 42px;	/* 左右鈕圖片的寬 */
+		height: 42px;	/* 左右鈕圖片的高 */
+		text-indent: -9999px;
+	}
+
+	#abgne-block-20110406 .prev {
+		background: url('images/topview_left.png') no-repeat;
+		left: 15px;
+	}
+
+	#abgne-block-20110406 .next {
+		background: url('images/topview_right.png') no-repeat;
+		right: 15px;
+	}
+
+	#abgne-block-20110406 .slides {
+		overflow: hidden;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		width: 1039px;	/* 框架中間區塊的寬 */
+		height: 287px;	/* 框架中間區塊的高 */
+	}
+
+	#abgne-block-20110406 .slides ul {
+		position: absolute;
+		width: 9800px;
+		height: 100%;
+	}
+
+	#abgne-block-20110406 .slides li {
+		width: 1039px;	/* 框架中間區塊的寬 */
+		height: 100%;
+		float: left;
+	}
+</style>
+<script type="text/javascript">
+	$(function(){
+		var $block = $('#abgne-block-20110406'), 
+			$slides = $block.find('.slides'), 
+			$ul = $slides.find('ul'), 
+			_width = $slides.width(), 
+			_left = _width * -1, 
+			_animateSpeed = 400, 
+			timer, _showSpeed = 5000, _stop = false;
+		
+		$ul.find('li:first').before($ul.find('li:last')).end().css({
+			left: _left,
+			width: _width * ($ul.find('li') + 1)
+		});
+
+		var $prev = $block.find('a.prev').click(function(){
+			$ul.stop(false, true).animate({'left' : _left + _width}, _animateSpeed, function () {
+				$ul.find('li:first').before($ul.find('li:last')).end().css('left', _left);
+				if(!_stop) {
+					clearTimeout(timer);
+					timer = setTimeout(move, _showSpeed);
+				}
+			});
+			return false;
+		});
+		
+		var $next = $block.find('a.next').click(function(){
+			$ul.stop(false, true).animate({'left' : _left - _width}, _animateSpeed, function () {
+				$ul.find('li:last').after($ul.find('li:first')).end().css('left', _left);
+				if(!_stop) {
+					clearTimeout(timer);
+					timer = setTimeout(move, _showSpeed);
+				}
+			});
+			return false;
+		});
+		
+		$block.hover(function(){
+			_stop = true;
+			clearTimeout(timer);
+		}, function(){
+			_stop = false;
+			timer = setTimeout(move, _showSpeed);
+		}).find('a').focus(function(){
+			this.blur();
+		});
+		function move(){
+			$next.click();
+		};
+
+		timer = setTimeout(move, _showSpeed);
+	});
+</script>
+</head>
+
+<body style="user-select: auto;">
+<div align="center" style="width:100%; *width:75%; z-index:150; position:absolute; top: 0px;">
+<table id="___01" width="1058" height="71" border="0" cellpadding="0" cellspacing="0" align="center">
+	<tbody><tr>
+		<td height="71"><img src="./vi.png" width="1058" height="295" alt=""></td>
+	</tr>
+</tbody></table>
+</div>
+<div align="center" style="width:100%; *width:75%; z-index:100; position:absolute; top:2px;">
+<table width="1039" border="0" align="center" cellpadding="0" cellspacing="0" summary="排版用">
+  <tbody><tr>
+    <td>
+
+  <div id="abgne-block-20110406">
+		<div class="slides">
+			<ul style="left: -1039px;">
+				
+                
+    				
+                
+    				
+                
+    				
+                <li><a href="http://www.wheelchair.tw/topview.php#" title="圖01"><img src="./14812684191.jpg" width="1039" height="282" alt="圖01" id="img_topview"></a></li><li><a href="http://www.wheelchair.tw/topview.php#" title="圖01"><img src="./14812753721.jpg" width="1039" height="282" alt="圖01" id="img_topview"></a></li><li><a href="http://www.wheelchair.tw/topview.php#" title="圖01"><img src="./14812776231.jpg" width="1039" height="282" alt="圖01" id="img_topview"></a></li><li><a href="http://www.wheelchair.tw/topview.php#" title="圖01"><img src="./14816024101.jpg" width="1039" height="282" alt="圖01" id="img_topview"></a></li><li><a href="http://www.wheelchair.tw/topview.php#" title="圖01"><img src="./14897378811.jpg" width="1039" height="282" alt="圖01" id="img_topview"></a></li>
+    				
+                
+    				
+			</ul>
+		</div>
+		<a href="http://www.wheelchair.tw/topview.php#" title="上一張" class="prev">&lt;</a>
+		<a href="http://www.wheelchair.tw/topview.php#" title="下一張" class="next">&gt;</a>
+	</div>
+
+    
+
+    
+    </td>
+  </tr>
+</tbody></table>
+</div>
+
+
+<script src="chrome-extension://lmnganadkecefnhncokdlaohlkneihio/enable.js"></script></body></html>

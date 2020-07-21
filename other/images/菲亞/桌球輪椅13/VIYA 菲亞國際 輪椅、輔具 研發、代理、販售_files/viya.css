@@ -1,0 +1,794 @@
+@charset "utf-8";
+
+.hidden { display: none;}
+
+.h6 { height: 6px;}
+.h10 { height: 10px;}
+.h15 { height: 15px;}
+.h25 { height: 25px;}
+.h30 { height: 30px;}
+.h50 { height: 50px;}
+.h90 { height: 90px;}
+.h223 { height: 223px;}
+.h348 { height: 348px;}
+
+.w650 { width: 650px;}
+.w730 { width: 730px;}
+.w995 { width: 995px;}
+.w1015 { width: 1015px;}
+.w1045 { width: 1045px;}
+
+#pages_01_left {float: left; text-align: left;}
+#pages_01_right { float: right; text-align: left;}
+
+.top_logo_bg{ background:url(images/top_logo_01.png) no-repeat left top;}logo設定
+.top_logo_bg_en{ background:url(images/top_logo_01-en.png) no-repeat left top;}logo設定
+
+.top_logo_bgx1{ background:url(images/top_logo_x1.png) no-repeat left top;}logo設定_x1
+.top_logo_bgx2{ background:url(images/top_logo_x2.png) no-repeat left top;}logo設定_x1
+.top_bg { background-image:url(images/top_bg.gif);background-repeat: repeat-x;background-position: left top;}/* 最上方藍色條 */
+.top_tobbg { height: 20px; background-image:url(images/top_topbg.gif);background-repeat: repeat-x;background-position: left top;}/* 主視覺的上方 */
+.top_bottombg { height: 10px; background-image:url(images/top_bottombg.gif);background-repeat: repeat-x;background-position: left top;}/* 主視覺的下方 */
+
+.index_login { margin: 10px 12px -5px 12px;}/* 會員登入_寬 */
+.index_login2 { margin: 0px 0px -10px -17px;}/* 登入狀態_寬 */
+.c1 { list-style-type: disc; color: #ff9900;}/* 登入狀態_的橘色點 */
+
+/* ---------------------------內頁次選單設定--------------------------- */
+.submenu_bgb { background:url(images/img/submenu_bg.gif) repeat-y left bottom;}
+.submenu_bg_02b { background: no-repeat left bottom;}
+/* text-align: left; padding: 5px 110px 5px 10px;*/
+.submenu_bg_03b {
+    height:24px;
+	background-image:url(images/img/submenu_icon.png);
+	background-repeat:no-repeat;
+	padding-left:30px;
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #FDFBFF; font-size: 12px;
+	letter-spacing: 1px; text-decoration: none;}
+
+.m01b {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #fdfbff; font-size: 12px;
+	letter-spacing: 1px; text-decoration: none; border-bottom: 1px solid #fdfbff;}
+
+.m01b:hover {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ffffcc; font-size: 12px;
+	letter-spacing: 1px; text-decoration: none; border-bottom: 1px solid #ffffff;}
+
+.submenu_bg { background:url(images/submenu_bg.gif) repeat-y left bottom;}
+.submenu_bg_02 { background-color:#F7F7F5; background: no-repeat left bottom;}
+/* text-align: left; padding: 5px 110px 5px 10px;*/
+.submenu_bg_03 {
+    height:24px;
+	background-image:url(images/submenu_icon.png);
+	background-repeat:no-repeat;
+	padding-left:30px;
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ccc; font-size: 12px;
+	letter-spacing: 1px; text-decoration: none;}
+
+.m01 {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #336699; font-size: 12px;
+	letter-spacing: 1px; text-decoration: none; border-bottom: 1px solid #336699;}
+
+.m01:hover {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #00ccff; font-size: 12px;
+	letter-spacing: 1px; text-decoration: none; border-bottom: 1px solid #787262;}
+
+
+
+/* ---------------------------底部區塊定位設定--------------------------- */
+.bottom_bg{ height:85px; width:995px; background:url(images/bottom_bg.jpg) #46A2C1 no-repeat center top;}底部設定
+.bottom_bg-en{ height:85px; width:995px; background:url(images/bottom_bg-en.jpg) #46A2C1 no-repeat center top;}底部設定
+
+.bottom_bg_1{ height:85px; width:995px; background:url(images/bottom_bgx1.jpg) #4CB5D8 no-repeat center top;}底部設定_x1
+.bottom_bg_2{ height:85px; width:995px; background:url(images/bottom_bgx2.jpg) #46A2C1 no-repeat center top;}底部設定_x2
+
+.bottom_bg_02{ background:url(images/bottom_bg_02.gif) repeat-x right bottom;}底部藍色塊延伸設定
+.bottom_width{ width: 995px;text-align: center;}
+.bottom_left_width{ width: 248px; float: left; text-align: center;}
+.bottom_center_width{ width: 620px; float: left; text-align: left; padding: 0px 0px 10px 0px;}
+.bottom_right_width{ width: 127px; float: left; text-align: center;}
+/*-----------------------------------------------------------*/
+.index_Yongho{
+   width:995px; height:430px; left:80px; position: relative;
+}
+
+.index_Yongho_02{ padding-left:734px;
+                  padding-left:0px \9;
+				  *padding-left:0px;
+				  _padding-left:0px;}
+body:nth-of-type(1) .index_Yongho_02{ padding-left:0px;}
+
+/* ---------------------------首頁主區塊設定--------------------------- */
+.index_picture_01 { float: left; margin: 0 10px 8px 0;}
+.index_picture_01b { float: right; margin: 0 0 8px 10px;}
+
+/* ---------------------------內容標題設定--------------------------- */
+.title_01{
+	height: 36px;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #00a3e4;
+	font-size:16px;
+	font-weight: bold;
+	background-image:url(images/title_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left center;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.title_01b{ height: 36px;
+           font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #FF9933;font-size:16px;
+		   background-image:url(images/title_bg.gif);background-repeat: repeat-x;background-position: left center;
+		   letter-spacing: 1px; text-decoration: none;}
+
+.title_01-2{ height: 36px;
+           font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #666666;font-size:12px;
+		   letter-spacing: 1px; text-decoration: none;}
+
+.title_04{ height: 31px;/*影音 副標*/
+           font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #8AB408;font-size:14px; font-weight: bold;
+		   background-image:url(images/title_04bg.gif);background-repeat: no-repeat;background-position:left center;
+		   letter-spacing: 1px; text-decoration: none; padding-left:25px;}
+
+.title_text_bg{ padding:5px 10px 5px 0px; background-color:#ffffff;}
+.title_text_bg2{ padding:3px 10px 3px 10px; background-color:#ffffff;}
+
+.title_bottom_bg{
+	height: 2px;
+	background-color:#00a3e4;
+}
+
+/* ---------------------------表格TH標頭設定--------------------------- */
+.th2 {
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	font-size:15px;
+	color: #666666;
+	letter-spacing: 1px;
+	background-color:#ffffff;
+	padding:8px 5px 7px 5px;
+	background-image:url(images/thbg02.gif);
+	background-repeat: no-repeat;
+	background-position:right center;
+	vertical-align: bottom;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #f1f1f2;
+}
+
+.th2-end {
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	font-size:15px;
+	color: #666666;
+	letter-spacing: 1px;
+	background-color:#ffffff;
+	padding:8px 5px 7px 5px;
+	vertical-align: bottom;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #f1f1f2;
+}
+
+/* ---------------------------第二層目錄設定--------------------------- */
+
+.tab_01bg { height: 26px; background-repeat:repeat-x; padding-left:8px;}
+.border_05 {
+	padding:0px 10px 0px 10px;
+	vertical-align: bottom;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F1F1F2;
+}
+.border_06 { padding:5px 0px 0px 0px; vertical-align: bottom; border-top: 1px solid #4990D4;}/*ҪWUju(bUh)*/
+
+.link_12{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666; font-size:12px; letter-spacing: 0px; text-decoration: none;}
+
+.link_12:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #FF6600; font-size:12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #FF6600;}
+.link_12-en{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666; font-size:12px; letter-spacing: 0px; text-decoration: none;padding: 0 0 0 3px;}
+
+.link_12-en:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #FF6600; font-size:12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #FF6600;}
+.link_12m{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #FF6600; font-size:12px; letter-spacing: 0px; text-decoration: none;}
+
+/* ---------------------------出版品內頁設定--------------------------- */
+.th4-end { /* 表格TH標頭設計樣式 淺藍色底 深色字*/ /* #00A2E5*/
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體; font-size:15px;color: #787262; letter-spacing: 1px; font-weight: bold; background-color:#ffffff; padding:10px 0px;
+	vertical-align: bottom;border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #FF9900;}
+
+.bookstext_01 { border-bottom: 1px solid #cccccc; padding:20px 0px;}
+
+/* ---------------------------學術資訊設定--------------------------- */
+.study-body {padding:5px;margin:5px;border: 1px dotted #EFEFEF;}
+
+.study-title { /* 標頭設計樣式 淺藍綠色字*/
+	width:100%;line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; font-size:15px;color: #2698A2; letter-spacing: 1px; font-weight: bold; padding:10px 0px;
+	vertical-align: bottom; text-decoration: none;}
+
+.study-title:hover { /* 標頭設計樣式 淺藍綠色字*/
+	width:100%;line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; font-size:15px;color: #66CCCC; letter-spacing: 1px; font-weight: bold; padding:10px 0px;
+	vertical-align: bottom; text-decoration: none;}
+
+.study-time{
+    line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #666; font-size: 12px; letter-spacing: 0px; font-weight: normal; text-decoration: none;
+	background-color: #F7F7F7;border: 1px solid #EFEFEF; padding:3px 20px;}
+
+
+/* ---------------------------網路相簿設定--------------------------- */
+.photo_01 { padding: 5px; border: 1px solid #cccccc;}
+.photo_02 { padding: 2px; border: 1px solid #cccccc;}
+
+/* ---------------------------FAQ設定--------------------------- */
+.faq_a_index { width: 630px; float: left;}/*首頁列表*/
+.faq_q_index { width: 27px; float: left;}/*首頁列表*/
+
+/* ---------------------------行事曆設定--------------------------- */
+.calendar_01{ background-color:#ffffff; border: 1px solid #cccccc; padding: 0px 6px;}
+.calendar_02{ background-color:#ffffff; border: 1px solid #cccccc; padding: 0px 3px;}
+.text_12px_11{/* 行事曆 */
+    line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #ffffff; font-size:12px /*75%*/; letter-spacing: 0px; text-decoration: none;}
+
+/* ---------------------------網站導覽設定--------------------------- */
+.style_contenttext {font-family: Verdana, Arial, Helvetica, sans-serif;color:#363636;line-height: 1.7;font-size: 12px;padding:5px 7px 5px 9px;}
+.style_contenttext a{color: #CC3300;text-decoration: none;}
+.style_contenttext a:hover {color: #FB6400;text-decoration: underline;}
+#next_title {border: 1px solid #718A92; background-color: #F1F1F1; padding: 5px 5px; color: #336699;}
+
+/* ---------------------------留言版設定--------------------------- */
+#imageBox { padding: 3px;/*內距*/border: 1px solid #ddd; background: #fff; margin: 3px;/*邊界*/ text-align: center;/*文字對齊*/}
+#imageBox_02 { padding: 10px;/*內距*/border: 1px solid #cccccc; background: #fff; margin: 3px;/*邊界*/ text-align: center;/*文字對齊*/ background-color:#F6F6F6;}
+.message_bg2 { padding: 3px; border: 1px solid #f1f1f2; background-color:#ffffff;}
+.message_bg3 { border-bottom: 1px solid #ffffff;}
+.th3-end { /* 表格TH標頭設計樣式 淺藍色底 深色字*/
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體; font-size:12px;color: #00A2E5; letter-spacing: 1px; background-color:#ffffff; padding:8px 5px 7px 5px;
+	vertical-align: bottom;border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: #FF9900;}
+.text_12px_11c{ line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #ffffff; font-size: 12px; letter-spacing: 0px; text-decoration: none; background-color: #999999;}
+.text_12px_11d{ line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #ffffff; font-size: 12px; letter-spacing: 0px; text-decoration: none; background-color: #F58D91;}
+
+
+/* ---------------------------內部系統登入頁設定--------------------------- */
+#margin_03 { margin-top: 100px;}
+
+.login_bottom_bg{
+    background-image: url(images/login_bottom_bg.gif);
+	background-repeat: no-repeat;
+	background-position: bottom center;}
+
+/* ---------------------------會員功能選單設定--------------------------- */
+.menulink{ background-image:url(images/left_menu_icon_m01.gif); font-family: Arial, sans-serif, 微軟正黑體, 新細明體; font-size:13px; background-repeat: no-repeat; background-position:left center;
+	       background-color: #FFFFFF; color: #396F67;}
+.menulink a{ color: #396F67; text-decoration:none;display:block; border-bottom: 1px solid #cccccc; padding:8px 0px 5px 10px;}
+.menulink a:hover{ background-image: url(images/left_menu_icon_m02.gif); background-repeat: repeat-x; background-position: left center; color: #FFFFFF; border-bottom: 1px solid #cccccc; background-color: #ffffff;}
+.menulink_hover{ background-image: url(images/left_menu_icon_m02.gif); background-repeat: repeat-x; background-position: left center; color: #FFFFFF; border-bottom: 1px solid #cccccc; background-color: #ffffff;}
+
+
+/* ---------------------------一般文字設定--------------------------- */
+.state_add {
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #00ccff;
+	font-size: 15px;
+	letter-spacing: 1px;
+}/* 藍 */
+.state_edit {
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #669900;
+	font-size: 15px;
+	letter-spacing: 1px;
+}/* 紅 */
+.state_del {
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #cc3300;
+	font-size: 15px;
+}/* 綠 */
+
+.text_12px_01 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_01-2 {
+	line-height: 120%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666;
+	font-size: 13px;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+.text_12px_01b {
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #666666;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	line-height: 200%;
+}
+
+.text_12px_03 { line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #0066cc; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+.text_12px_03b {
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #cc3300;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_03-2 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0099cc;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_03-2c { line-height: 200%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #0099cc; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+.text_12px_03-2b { line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #0099cc; font-size: 12px;font-weight: bold; letter-spacing: 0px; text-decoration: none;}	
+.text_12px_04 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #ff6600;
+	font-size:13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_05 {
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #999;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_06 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #00ccff;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_07 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #336699;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}/*深藍*/
+.text_12px_08 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #00A3E4;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}/*桃紅*/
+.text_12px_10 { line-height: 150%;font-family: Arial, sans-serif, 微軟正黑體, 新細明體;color: #ffffff; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+.text_12px_12{
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #CCC;
+	font-size:13px /*100%*/;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_13-2 { line-height: 200%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;color: #cccccc; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+.text_12px_14 { line-height: 150%;font-family: Arial, sans-serif, 微軟正黑體, 新細明體;color: #e3f3c4; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+.text_12px_15 { line-height: 150%;font-family: Arial, sans-serif, 微軟正黑體, 新細明體;color: #ffff00; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+.text_12px_16 { line-height: 150%;font-family: Arial, sans-serif, 微軟正黑體, 新細明體;color: #FEFECC; font-size: 12px; letter-spacing: 0px; text-decoration: none;}/*E4E198*/
+
+.text_13px_01 { line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;color: #006699; font-size: 13px; letter-spacing: 0px; text-decoration: none; font-weight: bold;}/*靛藍*/
+
+.text_15px_02 { font-family: Arial, sans-serif, 微軟正黑體, 新細明體; color: #0099cc; font-size: 15px; letter-spacing: 0px; text-decoration: none; font-weight: bold;}
+
+.link_01{
+	line-height: 120%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666;
+	font-size:15px /*100%*/;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.link_01:hover{
+	line-height: 120%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #FB6400;
+	font-size:15px /*100%*/;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+
+.link_01c {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0099cc;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.link_01c:hover {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0CC;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+
+.link_02 {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #333333; font-size: 100%; letter-spacing: 0px; text-decoration: underline;}
+
+.link_02:hover {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ff6600; font-size: 100%; letter-spacing: 0px; text-decoration: underline;
+	POSITION: relative; top: 1px; left: 1px;}
+
+.link_02c{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #cccccc;}
+
+.link_02c:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ff6600; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+	
+.link_02d{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0072BC; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #0072BC;}
+
+.link_02d:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ff6600; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+
+.link_03 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.link_03:hover {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0066cc;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	POSITION: relative;
+	top: 1px;
+	left: 1px;
+}
+.link_03-en {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+.link_03-en img {margin: 5px 0 0 0;}
+.link_03-en:hover {
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #0066cc; font-size: 12px; letter-spacing: 0px; text-decoration: none;
+	POSITION: relative; top: 1px; left: 1px;}
+.link_06 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #336699;
+	font-size:12px;
+	letter-spacing: 0px;
+	text-decoration: underline;
+}
+
+.link_06:hover {
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #00ccff;
+	font-size:12px;
+	letter-spacing: 0px;
+	text-decoration: underline;
+	POSITION: relative;
+	top: 1px;
+	left: 1px;
+}
+
+.link_09{
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #ffffff; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+
+.link_09:hover{
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #cccccc; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+
+.link_09b{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #336699; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #336699;}
+
+.link_09b:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #00ccff; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #00ccff;}
+
+.link_10{
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #06F;
+	font-size: 15px;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+
+.link_10:hover{
+	line-height: 150%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #09F;
+	font-size: 15px;
+	letter-spacing: 0px;
+	text-decoration: none;
+	border-bottom: 1px solid #ffffff;
+}
+
+.link_11{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #ffffff; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #ffffff;}
+
+.link_11:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ffff33; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #ffff33;}
+
+.link_13{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #cc3300; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #cc3300;}
+
+.link_13:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ff6600; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #ff6600;}
+
+.link_14{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+
+.link_14:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #ff33cc; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #ff33cc;}
+
+.link_15{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0099cc; font-size: 12px; letter-spacing: 0px; text-decoration: none;}
+
+.link_15:hover{
+	line-height: 150%; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+    color: #00ccff; font-size: 12px; letter-spacing: 0px; text-decoration: none; border-bottom: 1px solid #00ccff;}
+
+.button_01 {
+	height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #333333; font-size: 12px; text-decoration: none;
+	background-color:#EFEFEF; border: 1px solid #6B6B6B; padding: 3px; margin:2px;}
+
+.button_01:hover {
+    height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #333333; font-size: 12px; text-decoration: none;
+	background-color:#D1F0A4; border: 1px solid #6B6B6B; padding: 3px; margin:2px;}
+
+.button_02 {
+	height: 25px;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #FFF;
+	font-size: 13px;
+	text-decoration: none;
+	background-color:#00A3E4;
+	border: 1px solid #6B6B6B;
+	padding: 2px;
+	margin:2px;
+	letter-spacing: 1px;
+}
+	
+.button_02:hover {
+	height: 25px;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #CCC;
+	font-size: 13px;
+	text-decoration: none;
+	background-color:#0FF;
+	border: 1px solid #6B6B6B;
+	padding: 2px;
+	margin:2px;
+	letter-spacing: 1px;
+}
+
+.button_03 {
+	height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #333333; font-size: 12px; text-decoration: none;
+	background-color:#ffcccc; border: 1px solid #6B6B6B; padding: 2px; margin:2px;}
+	
+.button_03:hover {
+    height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #ffffff; font-size: 12px; text-decoration: none;
+	background-color:#ff9999; border: 1px solid #6B6B6B; padding: 2px; margin:2px;}
+
+.button_04 {
+	height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #333333; font-size: 12px; text-decoration: none;
+	background-color:#EFEFEF; border: 1px solid #6B6B6B; padding: 3px; margin:2px;}
+
+.button_04:hover {
+    height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #ffffff; font-size: 12px; text-decoration: none;
+	background-color:#66ccff; border: 1px solid #6B6B6B; padding: 3px; margin:2px;}
+
+.button_04else {
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #00A3E4;
+	font-size: 15px;
+	text-decoration: none;
+	background-color:#EEE;
+	border: 1px solid #CCC;
+	padding: 3px;
+	margin:2px;
+	letter-spacing: 1px;
+}
+
+.button_05 {
+	height: 14px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; font-weight:bold;
+	color: #333333; font-size: 10px; text-decoration: none;
+	background-color:#EFEFEF; border: 1px solid #6B6B6B; padding: 1px 3px; margin:1px;}
+
+.button_05:hover {
+    height: 14px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體; font-weight:bold;
+	color: #333333; font-size: 10px; text-decoration: none;
+	background-color:#D1F0A4; border: 1px solid #6B6B6B; padding: 1px 3px; margin:1px;}
+
+.button_06 {
+	height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #fff; font-size: 12px; text-decoration: none;
+	background-color: #3399FF; padding:5px 10px 5px 10px; margin:2px;
+	background:url(images/pn_blue.gif) repeat-x left top;}
+
+.button_06:hover {
+    height: 20px; font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #333; font-size: 12px; text-decoration: none;
+	background-color:#D1F0A4; padding:5px 10px 5px 10px; margin:2px;
+	background:url(images/pn_blue.gif) repeat-x left bottom;}
+
+.border_01 { border-bottom: 1px dashed #cccccc;}
+.border_02 { border-bottom: 1px dotted #cccccc;}
+.border_03 { border-bottom: 1px solid #cccccc;}
+#border_02 { border: 1px solid #666666;}
+#img_c{ padding: 3px; border:#999 solid 1px; background-color:#fff;}/*主圖邊框*/
+#img{ margin: 3px 0 0 0; border:#ccc solid 1px;}/*主圖邊框*/
+.border_04{ padding:3px 0px 15px 0px; border-bottom: 1px solid #cccccc;}
+.border_07{ padding:3px 0px 5px 0px;}
+
+.padding_01 { padding-left: 20px; padding-right: 20px;}
+.padding_02 { padding-left: 10px; padding-right: 10px;}
+.padding_03 { padding-left: 40px; padding-right: 40px;}
+.padding_04{ padding-top:10px;}
+.padding_05 { padding-left: 20px;}
+#padding_06 { padding: 5px;}
+#padding_07 { padding-top: 4px;}
+#padding_08 { padding-top: 3px;}/*首頁icon*/
+#padding_09 { padding-left: 5px; padding-right: 5px;}
+#title_photo_01 { padding: 2px; border: 1px solid #cccccc;}/*圖片邊框*/
+
+.bottom_link_02{ color: #0099cc; border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; padding:5px; background-color:#FFFFCC;}
+
+/* =================================== 加入會員 設定 ==================================*/
+
+#AgreeBoxbDiv {
+    /*PADDING: 15 5 0 5px;*/
+	MARGIN: 0px 0px 0px 0px;
+	FLOAT: center; 
+	WIDTH: 780px; 
+	BACKGROUND-COLOR: #FFFFFF
+}
+
+#AgreeBoxDiv DIV {
+	PADDING-RIGHT: 2px; OVERFLOW: auto; WIDTH: 95%; HEIGHT: 400px;
+	SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #ebebeb; SCROLLBAR-SHADOW-COLOR: #f1e0ce; SCROLLBAR-3DLIGHT-COLOR: #f1e0ce; SCROLLBAR-ARROW-COLOR: #660066; SCROLLBAR-TRACK-COLOR: #ebebeb; SCROLLBAR-DARKSHADOW-COLOR: #f1e0ce;
+    font-family: Arial, 微軟正黑體, 新細明體;
+	font-size: 12px;
+}
+.AgreeBoxDivBC {
+	background-color: #FFFBE6;
+}
+.BoxTitle {
+	background-color: #FEE9F5;font-size: 12px; font-weight:bold;
+}
+
+#MembTitle {
+	padding: 20 5 10 0px;
+	margin: auto;		
+}
+.link_top {
+	line-height: 130%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0099cc;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.link_top:hover {
+	line-height: 130%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #0CF;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.text_12px_00 {
+	line-height: 120%;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #666666;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.link_00 {
+	line-height: 120%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #666666;
+	font-size:13px /*100%*/;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.link_00:hover {
+	line-height: 120%;
+	font-family: Arial, sans-serif, 微軟正黑體, 新細明體;
+	color: #FB6400;
+	font-size:13px /*100%*/;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+.text_12px_03-00 {
+	line-height: 150%;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #00A3E4;
+	font-size: 13px;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+.border_01c {
+	border: 1px dashed #cccccc;
+}
+.link_pro {
+	line-height: 120%;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #00A3E4;
+	font-size:15px /*100%*/;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+.link_pro:hover {
+	line-height: 120%;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #999;
+	font-size:15px /*100%*/;
+	letter-spacing: 1px;
+	text-decoration: underline;
+}
+.index_pic {
+	line-height: 30px;
+	font-family: Arial, sans-serif, "微軟正黑體", "新細明體";
+	color: #666666;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+/* =================================== 經銷商 設定 ==================================*/
+#dealer_area { /*經銷商登入後歡迎區塊*/
+	width:188px; float:right; background:#FFFFFF; padding-right:10px;
+}
